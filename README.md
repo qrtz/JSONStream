@@ -22,7 +22,7 @@ from StringIO import StringIO
     print(city.name)
 ```
 
-    If the above data is stored in a file.
+If the above data is stored in a file. We can do the following
 
 ```python
  import JSONStream import JSONStream
