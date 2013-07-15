@@ -19,7 +19,7 @@ from StringIO import StringIO
 ''')
 
  for city in JSONStream(cities):
-    print(city.name)
+    print(city["name"])
 ```
 
 If the above data is stored in a file. We can do the following
@@ -29,7 +29,7 @@ If the above data is stored in a file. We can do the following
 
  with open('cities.json') as cities:
      for city in JSONStream(cities):
-        print(city.name)
+        print(city["name"])
 ```
 
 
