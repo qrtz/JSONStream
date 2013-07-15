@@ -7,7 +7,7 @@ JSONStream is python library that enables parsing distinct JSON objects from an 
 
 Example Usage
 =============
-    ```
+    ```python
     from StringIO import StringIO
      import JSONStream import JSONStream
 
@@ -24,7 +24,7 @@ Example Usage
 
     If the above data is stored in a file.
 
-    ```
+    ```python
      import JSONStream import JSONStream
 
      with open('cities.json') as cities:
