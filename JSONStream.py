@@ -12,7 +12,7 @@ def JSONStream(fd, buffer_size=4096, decode=None):
 		import json
 		decode = json.JSONDecoder().raw_decode
 	buf = ''
-	data = fd.read(buffer_size)
+	data = fd.read(buffer_size) 
 	while data:
 		try:
 			if not buf: data = data.lstrip()
@@ -24,5 +24,5 @@ def JSONStream(fd, buffer_size=4096, decode=None):
 		except GeneratorExit: break
 		except ValueError: pass 
 		if not fd.closed:
-			data = fd.read(buffer_size)
+			data = fd.read(buffer_size) 
 
