@@ -9,7 +9,7 @@ Example Usage
 =============
 ```python
 from StringIO import StringIO
- import JSONStream import JSONStream
+from JSONStream import JSONStream
 
  cities = StringIO('''
     {"name": "London"}
